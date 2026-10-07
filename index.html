@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Inventory Item</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <article class="product-card">
+        <header>
+          <img
+            src="https://www.arosada.com/cdn/shop/files/03931-web_1d4e0193-67cb-4dc7-af25-ca49a3a812b7_1100x.jpg?v=1736887913"
+            alt="guntiino somaliyed"
+          />
+          <div class="content">
+            <p>
+              One of the oldest and most iconic traditional garments worn by Somali women.
+            </p>
+          </div>
+        </header>
+
+        <section class="content">
+          <h2>Modern Significance</h2>
+          <p>
+            Today, while still used daily by some, it is widely celebrated during formal ceremonies,
+            national occasions, cultural performances, and as a popular bridal choice for women honoring their cultural heritage.
+          </p>
+        </section>
+       
+        <footer class="card-footer">
+          <form action="/update-stock" method="POST">
+            <label for="stock-adjust">Adjust Stock:</label>
+          </form>
+
+          <nav>
+            <a href="/edit-product">Edit Details</a>
+            <a href="/order-history">View Order History</a>
+          </nav>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
